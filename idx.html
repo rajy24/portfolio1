@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raj portfolio website</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://kit.fontawesome.com/143d4c16ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="container">
+            <nav>
+                <img src="picss/nylogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#portfplio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER ,FRONTEND DEVELOPER</p>
+                <h1>Hie, I'm <span> Raaj </span> Yadav<br>from Pune,Maharashtra</h1>
+            </div>
+        </div>
+    </div>
+   <!---------------------------------------------------------------------about section----------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="picss/raj11.png">
+                </div>
+                 <div class="about-col2">
+                    <h1 class="subt">about Raaj</h1><br>
+                    <p class="para1">heyy,Raaj Yadav here,i'm from pune and i'm an student SY,Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vel blanditiis, molestias deleniti quam voluptates possimus sed repudiandae nemo dolorem perspiciatis corrupti debitis maiores quae, animi autem dolores quo in?<br>currently persuing degree of BCA in AIML from<br> the MIT-ACSC Alandi,pune</p>
+                <div class="tab_titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> experience</p>
+                    <p class="tab-links"onclick="opentab('education')"> education</p>
+                </div>
+                <div class="tab-contents active-tag" id="skills" >
+                    <h3>skills known-</h3>
+                    <ul class="para2">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                        <li>BASIC PYTHON</li>
+                        <li>BASIC FIGMA</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025-CURRENT</span><br>Internship at eduskills for fullstacks</li>
+                         <li><span>2025-CURRENT</span><br>C++ making projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>SSC(2022)</span><br>MAHATMA GANDHI VIDYALYA,NIRA<br>78%</li>
+                        <li><span>HSC(2024)</span><br>KILACHAND KANISHTHA MAHAVIDYALAYA,NIRA<br>64%</li>
+                        <li><span>BCA FY(2025)</span><br>MIT ACSC ALANDI(D)<br>9.2 CGPA</li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------services----------------------------------------->
+
+<div id="services">
+<div class="container">
+         <h1 class="subt"> MY SERVICES</h1><br>
+         <div class="service-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2><span>WEB / Ui/Ux DESIGN</span></h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. atis? Possimus facere magnam iste nam, soluta molestiae facilis modi?
+                   <br> <a href="#">learn more</a>
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><span>FULL STACK DEVELOPMENT</span></h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptas recusandae maiores ratione necessitatibus pariatur. Ri?
+                    <br><a href="#">learn more</a>
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2><span>BACKEND/ SYSTEM DEVELOPMENT</span></h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptas recusandae maiores ratione necessitatibus pariatur. 
+                   <br> <a href="#">learn more</a>
+                </p>
+            </div>
+
+
+         </div>
+</div>
+
+</div>
+
+
+<!--------------------------------------------------------------------------portfolio-------------------------------------------------------->
+ 
+<div id="portfplio">
+<div class="container">
+<h1 class="subt">MY WORKS</h1>
+<div class="worklist">
+    <div class="work">
+        <img src="picss/na.png">
+    </div>
+    <div class="work">
+        <img src="picss/na.png">
+    </div>
+    <div class="work">
+        <img src="picss/na.png">
+    </div>
+
+<!--<h3 class="sbt">Yet working on projects,as they are in process,kindly wait untill the projects uploaded.</h3>--->
+
+</div>
+
+
+
+
+</div>
+<div class="inf">
+<br>
+<h3 class="sbt">Yet working on projects,as they are in process,<br>kindly wait untill the projects uploaded.</h3>
+
+</div>
+</div>
+<!-----------------------------------------------------------------CONTACT ME------------------------------------------------------------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h3 class="subt">Contact me</h3><br>
+            <p><i class="fas fa-paper-plane"></i>yraj20433@gmail.com</p>
+            <p><i class="fas fa-phone"></i>+91 7758076881</p>
+            <div class="social-icons">
+
+                <a href="https://preskilet.com/5464248@mitacsc.edu.in"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/raaj_ry_?igsh=MTc0a216ZWs3bTRhNQ=="><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/<917758076881>"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/raj-yadav-bab192356/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button class="btn"><a href="raj int.pdf" download>Download CV</a></button>
+
+        </div>
+        <div class="contact-right">
+            <form class="contform" name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name:" required>
+                <input type="email" name="Email" placeholder="Enter Your Email:" required>
+                <textarea name="Message" rows="5" placeholder="Enter your message/(give feedback to this project):"></textarea>  
+                <button type="submit" class="btn">submit</button>
+
+
+
+            </form>
+                        <span id="msg"></span>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright © Raaj. made with <i class="fas fa-heart"></i> by Raaj Yadav</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+var tablinks= document.getElementsByClassName("tab-links");
+var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tag");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tag");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyI_rRI28xaCJY8OwUIeW2l4jmggQs_5dyw1Zzd9loEnTAEV3tLh_hMl18WI8vVXF1Z8A/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="message has been sent sucessfully!!!"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      }
+      )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+</body>
+</html>
